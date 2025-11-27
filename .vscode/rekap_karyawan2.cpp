@@ -23,6 +23,7 @@ void urutkanKinerja(Karyawan dataKaryawan[], int jumlahKaryawan);
 void tampilkanHasil(Karyawan dataKaryawan[], int jumlahKaryawan);
 void tampilkanFilter(Karyawan dataKaryawan[], int jumlahKaryawan, string filterStatus);
 void tampilkanTop3(Karyawan dataKaryawan[], int jumlahKaryawan);
+void tampilkanStatistik(Karyawan dataKaryawan[], int jumlahKaryawan);
 void tampilkanMenu();
 
 
@@ -359,7 +360,7 @@ int main() {
             break;
         }
 
-        case 5:  // Case baru untuk TOP 3
+        case 5:  
             tampilkanTop3(dataKaryawan, jumlahKaryawan);
             break;
         case 6:
